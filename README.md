@@ -30,18 +30,18 @@ graph TD
     User[User Transaction] --> Mempool[Transaction Pool]
     
     subgraph "SWIFT v2 Engine"
-        Mempool --> Proposer[Leader Selection (VRF)]
+        Mempool --> Proposer["Leader Selection (VRF)"]
         Proposer --> Block[Block Proposal]
         Block --> Vote[BLS Voting]
         Vote --> Agg[Signature Aggregation]
         Agg --> Final[Finalization]
         
         Final --> Trust[Trust Manager]
-        Final --> Store[LevelDB / WAL]
+        Final --> Store["LevelDB / WAL"]
     end
     
     Trust -->|Update Scores| Proposer
-    Store -->|Persist State| Disk[(Disk Storage)]
+    Store -->|Persist State| Disk[("Disk Storage")]
 ```
 
 ### The "Trust Cycle"
