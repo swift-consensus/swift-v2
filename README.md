@@ -1,9 +1,9 @@
 # SWIFT v2: Simple Weighted Instant Finality Trust
 
-![Status](https://img.shields.io/badge/Status-Mainnet%20Ready-success)
-![Go Version](https://img.shields.io/badge/Go-1.22+-blue)
-![License](https://img.shields.org/badge/License-MIT-green)
-![Finality](https://img.shields.org/badge/Finality-~500ms-purple)
+![Status](https://img.shields.io/badge/Status-Mainnet_Ready-success)
+![Go Version](https://img.shields.io/badge/Go-1.22%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Finality](https://img.shields.io/badge/Finality-500ms-purple)
 
 **SWIFT v2** is a next-generation Byzantine Fault Tolerant (BFT) consensus engine designed for speed, security, and self-healing. It introduces a novel **Hybrid Stake-Trust Model** that achieves single-round finality while actively punishing malicious behavior.
 
