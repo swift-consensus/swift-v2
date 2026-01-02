@@ -143,17 +143,6 @@ The codebase has undergone rigorous auditing (Jan 2026).
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] **Core Consensus Engine** (Completed)
-- [x] **P2P Networking** (Completed)
-- [x] **Persistence Layer** (Completed)
-- [ ] **Cosmos SDK Integration (ABCI)** (Next Step)
-- [ ] **Light Client Support**
-- [ ] **Mainnet Launch**
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License**.
